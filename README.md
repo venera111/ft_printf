@@ -1,6 +1,7 @@
 # ft_printf
 
-### The versatility of the printf function in C represents a great exercise in programming for us. This project is of moderate difficulty. It will enable you to discover variadic functions in C. The key to a successful ft_printf is a well-structured and good extensible code.
+### Реализация стандартной функции printf на языке Си
+Проект должен компилироваться с помощью makefile. Задача направлена на понимание работы стандартной функции печати в языке Си.
 
 Get_next_line (42cursus) 2021-2022
 
