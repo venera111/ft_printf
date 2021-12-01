@@ -14,6 +14,14 @@ Summary of the various types:
 | u             | unsigned int              | print decimal                                                            |
 | x, X          | unsigned int              | as a hexadecimal number. x uses lower-case letters and X uses upper-case |
 | c             | char                      | character                                                                |
+| s             | char*                     | null-terminated string                                                   |
+| p             | void*                     | (pointer to void) in an implementation-defined format                    |
+
+There can be a number of parameters between "%" and the conversion type: width (number or *), length modifiers (h, hh, l, ll, L), precision (number or *), flags (#, 0, ' ', +, -).
+
+The width of the field is the minimum length of the string obtained as a result of the conversion, and is specified as a number. By default, if the converted value has fewer characters than the width of the field, then it is padded with spaces on the left (or on the right, if the left conversion flag is specified). filling in additional characters on the left. A small width does not make the conversion result truncated - if the conversion result is larger than the width of the field, the field expands to accommodate the converted value.
+
+Precision is a decimal number preceded by a dot. For diouxX types, precision is the minimum string length, padded to the left with 0 if the conversion result is shorter than precision. To convert f, the precision indicates the number of digits to which the number needs to be rounded. For s conversions, precision gives the maximum number of characters that should be printed from the argument.
 
 Get_next_line (42cursus) 2021-2022
 
