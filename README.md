@@ -13,8 +13,8 @@ Summary of the various types:
 | o             | unsigned int              | in octal                  |
 | u             | unsigned int              | print decimal             |
 | x, X          | unsigned int              | as a hexadecimal number.  |
-|                                           | x uses lower-case letters |
-|                                           | and X uses upper-case     |
+|               |                           | x uses lower-case letters |
+|               |                           | and X uses upper-case     |
 | c             | char                      | character                 |
 
 Get_next_line (42cursus) 2021-2022
