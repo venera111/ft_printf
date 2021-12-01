@@ -8,4 +8,3 @@ Get_next_line (42cursus) 2021-2022
 
 Actual Status : finished.
 Result : 119%
-![image](https://user-images.githubusercontent.com/78787523/141272331-3d44cace-3dec-47e5-94f4-88da945ee57f.png)
